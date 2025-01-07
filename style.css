@@ -1,0 +1,105 @@
+* {
+    font-family: 'Assistant', sans-serif;
+    color: rgb(197, 137, 64);
+    direction: rtl;
+    font-size: 22px;
+}
+
+body {
+    background-color: rgb(250, 234, 177);
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    text-align: center;
+    margin: 0;
+    font-size: 45px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 137, 64);
+    border: 2px solid rgb(250, 234, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+li {
+    margin-left: 10px;
+}
+
+li a {
+    display: block;
+    color: rgb(250, 234, 177);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(250, 234, 177);
+    color: rgb(197, 137, 64);
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+}
+
+p {
+    margin: 8px;
+    white-space: normal;  /* מבטל הגבלת רווחים */
+    word-wrap: break-word; /* שובר מילים ארוכות */
+    overflow-wrap: break-word;  /* שובר מילים ארוכות */
+}
+
+.content-text {
+    margin: 15px;
+    white-space: normal;  /* מבטל את חיתוך המילים */
+    word-wrap: break-word;  /* שובר מילים ארוכות */
+    overflow-wrap: break-word;  /* שובר מילים ארוכות */
+}
+
+#quiz-container {
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(197, 137, 64);
+    width: 80%;
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+#quiz-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#quiz-form label {
+    margin-bottom: 10px;
+}
+
+#quiz-form input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(197, 137, 64);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(250, 234, 177);
+    color: rgb(197, 137, 64);
+}

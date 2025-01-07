@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li><a onclick="yona()">יונה</a></li>
+        <li><a onclick="AFTD()">תפוחים מן המדבר</a></li>
+        <li><a onclick="kings()">מלכים ב פרק יז</a></li>
+        <li><a onclick="OOS()">אחת מאיתנו</a></li>
+    </ul>
+    <h1 id="head">ארון הספרים</h1>
+    <p id="1st"></p>
+    <p id="2nd" class="content-text"></p>
+    <p id="3rd" class="content-text"></p>
+    
+    <div id="quiz-container">
+        <h2>חידון</h2>
+        <form id="quiz-form">
+            <!-- שאלות תתממשנה כאן לפי בחירת נושא -->
+        </form>
+        <button type="button" onclick="checkAnswers()">שלח תשובות</button>
+        <p id="score"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
